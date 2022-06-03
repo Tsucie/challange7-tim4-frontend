@@ -1,0 +1,129 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Landing Page */
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  font-family: Helvetica !important;
+  scroll-behavior: smooth;
+}
+h2 {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+.bg-aliceblue {
+  background-color: #f1f3ff;
+}
+.bg-button {
+  background-color: #5cb85f !important;
+}
+.bg-button:hover {
+  background-color: #3e7e40 !important;
+}
+.bg-primary-darkblue {
+  background-color: #0d28a6;
+}
+.our-service-checklist {
+  width: 24px;
+  height: 24px;
+}
+.why-us-icon {
+  width: 32px;
+  height: 32px;
+}
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+}
+.testimonial-rating {
+  max-height: 16px;
+}
+.testimonial-name {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  line-height: 0px;
+}
+.testimonial-media {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 50%;
+}
+.testimonial-media:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+.footer-social {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.cars-box-search {
+  width: 80%;
+  margin-top: -55px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 3px 2px #ebebeb;
+  font-size: 12px;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@media screen and (max-width: 1400px) {
+  .cars-box-search {
+    width: 80%;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cars-box-search {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .inputTime,
+  .inputDate {
+    width: 160px;
+  }
+  .inputPassanger,
+  .inputDriver {
+    width: 180px;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
